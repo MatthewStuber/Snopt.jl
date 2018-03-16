@@ -303,7 +303,7 @@ function snopt(fun, x0, lb, ub, options;
         iprint, isumm)
 
 
-    return x, F[1], codes[INFO[1]]  # xstar, fstar, info
+    return x, F[1], INFO[1], xmul  # xstar, fstar, info
 
 end
 
